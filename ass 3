@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+ int num,n1=20,n2=40;
+ printf("Print Odd Numbers in a given range m to n:\n");
+ for (num = n1; num <= n2; num++) {
+   if (num % 2 == 1&&num!=25)
+   
+     printf ("%d ", num);
+ }
+}
